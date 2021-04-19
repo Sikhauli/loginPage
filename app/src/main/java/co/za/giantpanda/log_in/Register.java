@@ -71,6 +71,10 @@ public class Register extends AppCompatActivity {
         });
     }
 
+    //This overridden method handle up button
+    //This how you override method, before you put this method inside onCreate method, you don't do that
+    //You don't create/put method inside another method
+    //Go learn about overriding, overloading, etc here: https://raygun.com/blog/oop-concepts-java/
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
