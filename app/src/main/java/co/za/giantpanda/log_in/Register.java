@@ -45,16 +45,18 @@ public class Register extends AppCompatActivity {
       actionBar.setTitle("Register");
       actionBar.setDisplayHomeAsUpEnabled(true);
     }
-      //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-      //getSupportActionBar().setDisplayShowHomeEnabled(true);
+    //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    //getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+    //@Override
+    //public boolean onOptionsItemSelected(MenuItem item) {
+    //  int id = item.getItemId();
     //
-    //public boolean onOptionsItemSelected( MenuItem item) {
-    //
-    //  if (item.getItemId()==android.R.id.home){
-    //      finish();
+    //  if (id == android.R.id.home) {
+    //    onBackPressed();  return true;
     //  }
-    //      return super.onOptionsItemSelected(item);
+    //
+    //  return super.onOptionsItemSelected(item);
     //}
 
 
